@@ -1,0 +1,113 @@
+<GRAPHICS_TEMPLATE_LIST>
+	<GRAPHICS_TEMPLATE name="Conveyor">
+		<SOLID name="Belt_Upper">
+			<COLOR value="Black"/>
+			<HEIGHT value="0.01" unit="Feet"/>
+			<CHANGE_WIDTH value="-0.2" unit="Feet"/>
+		</SOLID>
+		<SOLID name="Belt_Lower">
+			<COLOR value="Black"/>
+			<HEIGHT value="0.01" unit="Feet"/>
+			<CHANGE_WIDTH value="-0.2" unit="Feet"/>
+			<TRANSLATE z="-0.41" unit="Feet"/>
+			<BREAK/>
+		</SOLID>
+		<SOLID name="Belt_Texture">
+			<COLOR value="LtGray"/>
+			<HEIGHT value="0.01" unit="Feet"/>
+			<TRANSPARENCY value="12"/>
+			<CHANGE_WIDTH value="-0.2" unit="Feet"/>
+		</SOLID>
+		<ROLLER name="Rollers">
+			<COLOR value="LtGray"/>
+			<TRANSLATE z="-0.01" unit="Feet"/>
+			<BREAK/>
+			<RADIUS value="0.1" unit="Feet"/>
+			<THICKNESS value="0.4" unit="Feet"/>
+			<SPACING value="0.25" unit="Feet"/>
+			<DETAIL value="FINE"/>
+			<OFFSET_OBJECT value="0.2" unit="Feet"/>
+		</ROLLER>
+		<ROLLER name="Roller_Axles">
+			<COLOR value="Black"/>
+			<CHANGE_WIDTH value="0.3" unit="Feet"/>
+			<TRANSLATE z="-0.15" unit="Feet"/>
+			<BREAK/>
+			<RADIUS value="0.05" unit="Feet"/>
+			<THICKNESS value="0.1" unit="Feet"/>
+			<SPACING value="1" unit="Feet"/>
+			<DETAIL value="COARSE"/>
+			<OFFSET_OBJECT value="0.2" unit="Feet"/>
+		</ROLLER>
+		<CURBING name="Curbing_Upper">
+			<COLOR value="Brown"/>
+			<TRANSLATE z="-0.01" unit="Feet"/>
+			<BREAK/>
+			<SIDES value="BOTH"/>
+			<CURB_WIDTH value="0.4" unit="Feet"/>
+			<CURB_HEIGHT value="0.1" unit="Feet"/>
+			<START_CURB/>
+			<END_CURB/>
+		</CURBING>
+		<CURBING name="Curbing_Middle">
+			<COLOR value="Brown"/>
+			<TRANSLATE z="-0.11" unit="Feet"/>
+			<BREAK/>
+			<SIDES value="BOTH"/>
+			<CURB_WIDTH value="0.1" unit="Feet"/>
+			<CURB_HEIGHT value="0.5" unit="Feet"/>
+			<START_CURB/>
+			<END_CURB/>
+		</CURBING>
+		<CURBING name="Curbing_Lower">
+			<COLOR value="Brown"/>
+			<TRANSLATE z="-0.61" unit="Feet"/>
+			<BREAK/>
+			<SIDES value="BOTH"/>
+			<CURB_WIDTH value="0.4" unit="Feet"/>
+			<CURB_HEIGHT value="0.1" unit="Feet"/>
+			<START_CURB/>
+			<END_CURB/>
+		</CURBING>
+		<LEG name="Legs">
+			<COLOR value="Brown"/>
+			<CHANGE_HEIGHT value="-0.01" unit="Feet"/>
+			<SIDES value="BOTH"/>
+			<SPACING value="5" unit="Feet"/>
+			<LEG_THICKNESS value="0.2" unit="Feet"/>
+			<LEG_WIDTH value="0.2" unit="Feet"/>
+			<FLOOR_Z_VALUE value="0" unit="Feet"/>
+		</LEG>
+		<LEG name="Feet">
+			<COLOR value="Brown"/>
+			<HEIGHT value="0.05" unit="Feet"/>
+			<CHANGE_WIDTH value="-0.2" unit="Feet"/>
+			<SIDES value="BOTH"/>
+			<SPACING value="5" unit="Feet"/>
+			<LEG_THICKNESS value="0.4" unit="Feet"/>
+			<LEG_WIDTH value="0.4" unit="Feet"/>
+			<FLOOR_Z_VALUE value="0" unit="Feet"/>
+			<FLATTEN/>
+		</LEG>
+		<SOLID_SHADOW name="Belt_Shadow">
+			<COLOR value="Black"/>
+			<TRANSPARENCY value="8"/>
+			<TWO_DIMENSION/>
+			<CHANGE_WIDTH value="-0.2" unit="Feet"/>
+			<FLOOR_Z_VALUE value="-0.1" unit="Feet"/>
+			<INVISIBLE/>
+		</SOLID_SHADOW>
+		<CURBING_SHADOW name="Curbing_Shadow">
+			<COLOR value="Black"/>
+			<TRANSPARENCY value="8"/>
+			<TWO_DIMENSION/>
+			<SIDES value="BOTH"/>
+			<CURB_WIDTH value="0.4" unit="Feet"/>
+			<CURB_HEIGHT value="0.5" unit="Feet"/>
+			<START_CURB/>
+			<END_CURB/>
+			<FLOOR_Z_VALUE value="-0.1" unit="Feet"/>
+			<INVISIBLE/>
+		</CURBING_SHADOW>
+	</GRAPHICS_TEMPLATE>
+</GRAPHICS_TEMPLATE_LIST>
