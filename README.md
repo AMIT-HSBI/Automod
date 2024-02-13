@@ -12,11 +12,12 @@ Automod ist ein Simulationstool der Firma Applied Materials, Inc. und wird in De
 
 
 ## Autoren
-    Fachhochschule Bielefeld
+    Hochschule Bielefeld
+    University of Applied Sciences and Arts
     Interaktion 1
     33619 Bielefeld
     Deutschland
-	Email: mathematik@fh-bielefeld.de
+    Email: mathematik.ium@hsbi.de
 	
 * Prof. Dr. rer. pol. Hermann-Josef Kruse
 * Dipl.-Math. (FH) Kemal Çak
